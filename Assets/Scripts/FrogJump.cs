@@ -4,26 +4,27 @@ using UnityEngine;
 
 public class FrogJump : MonoBehaviour {
 
-	public Vector3 jumpVector;
-
-	void Start () {
-		
-	}
+	public float jumpAngle = 45;
+	public float speed = 5;
 	
 	// Update is called once per frame
 	void Update () {
 
-		Debug.DrawRay (transform.position, jumpVector, Color.blue);
+		Camera camera = GetComponentInChildren<Camera> ();
 
-		Vector3 projectedJumpVector = Vector3.ProjectOnPlane (jumpVector, Vector3.up);
-		Debug.DrawRay (transform.position, projectedJumpVector, Color.green);
+		Debug.DrawRay (transform.position, camera.transform.forward, Color.blue);
 
-		float radian = Mathf.Deg2Rad * 90;
-		Vector3 rotatedJumpVector = Vector3.RotateTowards (projectedJumpVector, Vector3.up, radian, 0);
-		Debug.DrawRay (transform.position, rotatedJumpVector.normalized, Color.red);
+		Vector3 projectedJumpDirection = Vector3.ProjectOnPlane (camera.transform.forward, Vector3.up);
+		Debug.DrawRay (transform.position, projectedJumpDirection, Color.green);
+
+		float radian = Mathf.Deg2Rad * jumpAngle;
+		Vector3 unnormalizedRotatedJumpDirection = Vector3.RotateTowards (projectedJumpDirection, Vector3.up, radian, 0);
+
+		Vector3 jumpDirection = unnormalizedRotatedJumpDirection.normalized * speed;
+		Debug.DrawRay (transform.position, jumpDirection, Color.red);
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			GetComponent<Rigidbody> ().AddForce (jumpVector, ForceMode.VelocityChange);
+			GetComponent<Rigidbody> ().AddForce (jumpDirection, ForceMode.VelocityChange);
 		}
 	}
 }

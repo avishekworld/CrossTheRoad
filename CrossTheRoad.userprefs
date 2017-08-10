@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FrogJump.cs">
     <Files>
-      <File FileName="Assets/Scripts/FrogJump.cs" Line="18" Column="2" />
+      <File FileName="Assets/Scripts/FrogJump.cs" Line="22" Column="83" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

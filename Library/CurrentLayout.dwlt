@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 725
-  m_MinSize: {x: 681, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 46
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 47
+  controlID: 37
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 48
+  controlID: 38
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 324
     height: 725
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -366,23 +366,23 @@ MonoBehaviour:
     height: 433
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 502c0000
-    m_LastClickedID: 11344
-    m_ExpandedIDs: 2ec3ffffb0e1ffff1cfcffff00000000
+    m_SelectedIDs: 4edefeff
+    m_LastClickedID: -74162
+    m_ExpandedIDs: 14fcffff1cfcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: co_PineTree (2)
-      m_OriginalName: co_PineTree (2)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -312124
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -448,13 +448,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.24766062, y: 0.6200668, z: -0.21550749, w: 0.7125601}
+    m_Target: {x: 0.12349317, y: 0.8533431, z: -0.23479007, w: 0.44881853}
     speed: 2
-    m_Value: {x: 0.24766012, y: 0.62006557, z: -0.21550706, w: 0.7125587}
+    m_Value: {x: 0.12349258, y: 0.8533391, z: -0.23478895, w: 0.4488164}
   m_Size:
-    m_Target: 39.701546
+    m_Target: 2755.5227
     speed: 2
-    m_Value: 39.701546
+    m_Value: 2755.5227
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -554,10 +554,10 @@ MonoBehaviour:
   m_LastProjectPath: /Users/newcomputer/Documents/GitHub/CrossTheRoad
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 23}
-    m_SelectedIDs: 422e0000
-    m_LastClickedID: 11842
-    m_ExpandedIDs: 00000000ba2600006c280000462a0000c22a00001c2b0000be2b00008a2c00008c2c00008e2c0000902c0000bc2d0000ca2d0000cc2d0000ffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 06280000
+    m_LastClickedID: 10246
+    m_ExpandedIDs: 00000000b8260000bc280000022a0000b42a0000362b00009e2b0000a42b0000462c00004c2c0000822e0000842e0000862e0000882e0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -585,7 +585,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba2600006c280000462a0000c22a00001c2b0000be2b00008a2c00008c2c00008e2c0000902c0000
+    m_ExpandedIDs: 00000000b8260000bc280000022a0000b42a0000362b00009e2b0000a42b0000462c00004c2c0000822e0000842e0000862e0000882e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

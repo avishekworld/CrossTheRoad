@@ -5,11 +5,14 @@ using UnityEngine;
 public class TreeGeneretor : MonoBehaviour {
 
 	public GameObject treePrefab;
+	public int minTrees = 5;
+	public int maxTrees = 15;
 
 	void Start () {
-		CreateTree();
-		CreateTree();
-		CreateTree();
+		int trees = Random.Range (minTrees, maxTrees);
+		for (int i = 0; i < trees; i++) {
+			CreateTree ();
+		}
 	}
 
 	void CreateTree(){

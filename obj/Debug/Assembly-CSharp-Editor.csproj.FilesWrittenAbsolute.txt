@@ -23,6 +23,7 @@
 /Users/newcomputer/Documents/GitHub/CrossTheRoad/Temp/bin/Debug/UnityEditor.VR.dll
 /Users/newcomputer/Documents/GitHub/CrossTheRoad/Temp/bin/Debug/UnityEditor.Graphs.dll
 /Users/newcomputer/Documents/GitHub/CrossTheRoad/Temp/bin/Debug/UnityEditor.Android.Extensions.dll
+/Users/newcomputer/Documents/GitHub/CrossTheRoad/Temp/bin/Debug/UnityEditor.WebGL.Extensions.dll
 /Users/newcomputer/Documents/GitHub/CrossTheRoad/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll
 /Users/newcomputer/Documents/GitHub/CrossTheRoad/Temp/bin/Debug/Google.ProtocolBuffers.dll
 /Users/newcomputer/Documents/GitHub/CrossTheRoad/Temp/bin/Debug/Assembly-CSharp.dll

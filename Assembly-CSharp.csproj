@@ -100,7 +100,8 @@
      <Compile Include="Assets\Scripts\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\TreeGeneretor.cs" />
-     <Compile Include="Assets\VechicleMovement.cs" />
+     <Compile Include="Assets\Scripts\VechicleMovement.cs" />
+     <Compile Include="Assets\Scripts\VehiclePlacer.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />

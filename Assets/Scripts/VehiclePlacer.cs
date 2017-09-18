@@ -5,9 +5,9 @@ using UnityEngine;
 public class VehiclePlacer : MonoBehaviour {
 
 	public GameObject prefab;
-	public int vechilePlacerMinInterval = 1;
-	public int vehiclePlacerMaxInterval = 4;
-	public double nextInterval = 2;
+	public int meanTime = 1;
+	public int minimumInterval = 2;
+	public double nextInterval = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +18,7 @@ public class VehiclePlacer : MonoBehaviour {
 	void Update () {
 		if (Time.time > nextInterval) {
 			PlaceVehicle ();
-			nextInterval = Time.time + Random.Range (vechilePlacerMinInterval, vehiclePlacerMaxInterval);
+			nextInterval = Time.time + minimumInterval + -Mathf.Log (Random.value) * meanTime;
 		}
 	}
 

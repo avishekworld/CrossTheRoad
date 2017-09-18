@@ -360,8 +360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1103151557719574, guid: f37781f2d69684d4e9074857c079bc2f, type: 2}
-  vechilePlacerMinInterval: 1
-  vehiclePlacerMaxInterval: 4
+  meanTime: 10
+  minimumInterval: 2
   nextInterval: 2
 --- !u!114 &114552314559971404
 MonoBehaviour:
@@ -375,6 +375,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1103151557719574, guid: f37781f2d69684d4e9074857c079bc2f, type: 2}
-  vechilePlacerMinInterval: 1
-  vehiclePlacerMaxInterval: 4
-  nextInterval: 2
+  meanTime: 1
+  minimumInterval: 2
+  nextInterval: 0

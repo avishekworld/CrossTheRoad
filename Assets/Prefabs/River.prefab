@@ -1709,9 +1709,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1091529474372756, guid: 90f4cfa45bf4f4ec2a2679bae0618eb2, type: 2}
-  vechilePlacerMinInterval: 1
-  vehiclePlacerMaxInterval: 4
-  nextInterval: 2
+  meanTime: 1
+  minimumInterval: 2
+  nextInterval: 0
 --- !u!136 &136056335476622562
 CapsuleCollider:
   m_ObjectHideFlags: 1

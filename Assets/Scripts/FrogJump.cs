@@ -6,16 +6,20 @@ public class FrogJump : MonoBehaviour {
 
 	public float jumpAngle = 45;
 	public float jumpSpeed = 5;
-	public float jumpGroundClearance = 2;
-	public float jumpSpeedTolerance = 5;
+	int collisionCounter = 0;
+
+	void OnCollisionEnter(Collision other){
+		collisionCounter++;
+	}
+
+	void OnCollisionExit(Collision other){
+		collisionCounter--;
+	}
 	
 	// Update is called once per frame
 	void Update () {
-		bool isGrounderd = Physics.Raycast (transform.position, -transform.up * jumpGroundClearance);
-		float speed = GetComponent<Rigidbody> ().velocity.magnitude;
-		bool isStationary = speed < jumpSpeedTolerance;
-		Debug.DrawRay (transform.position, -transform.up * jumpGroundClearance, Color.red);
-		if (GvrViewer.Instance.Triggered && isGrounderd && isStationary) {
+		bool isGrounderd = collisionCounter > 0;
+		if (GvrViewer.Instance.Triggered && isGrounderd) {
 			Camera camera = GetComponentInChildren<Camera> ();
 			Vector3 projectedJumpDirection = Vector3.ProjectOnPlane (camera.transform.forward, Vector3.up);
 			float radian = Mathf.Deg2Rad * jumpAngle;

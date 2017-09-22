@@ -3121,7 +3121,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpAngle: 45
-  jumpSpeed: 5
+  jumpSpeeds:
+  - 4
+  - 5
+  - 6
 --- !u!1 &2137207511
 GameObject:
   m_ObjectHideFlags: 0

@@ -99,6 +99,7 @@
      <Compile Include="Assets\Scripts\FrogJump.cs" />
      <Compile Include="Assets\Scripts\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\MenuFollewer.cs" />
      <Compile Include="Assets\Scripts\TreeGeneretor.cs" />
      <Compile Include="Assets\Scripts\VechicleMovement.cs" />
      <Compile Include="Assets\Scripts\VehiclePlacer.cs" />

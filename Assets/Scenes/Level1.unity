@@ -202,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &28996589
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2409,6 +2409,7 @@ GameObject:
   - component: {fileID: 1523574374}
   - component: {fileID: 1523574373}
   - component: {fileID: 1523574372}
+  - component: {fileID: 1523574375}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -2484,6 +2485,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1523574370}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1523574375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1523574370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf8010effee146eda73d916219754c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1534274394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3782,6 +3794,7 @@ GameObject:
   - component: {fileID: 2131519702}
   - component: {fileID: 2131519703}
   - component: {fileID: 2131519704}
+  - component: {fileID: 2131519705}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Untagged
@@ -3846,8 +3859,20 @@ MonoBehaviour:
   jumpAngle: 45
   jumpSpeeds:
   - 4
-  - 5
-  - 6
+  - 2
+  - 2
+--- !u!114 &2131519705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131519700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab87f40373e184941a1e8c4a049765b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverMenuCanvas: {fileID: 28996588}
 --- !u!1 &2137207511
 GameObject:
   m_ObjectHideFlags: 0

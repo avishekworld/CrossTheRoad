@@ -96,6 +96,8 @@
      <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+     <Compile Include="Assets\Scripts\CollisionDetector.cs" />
+     <Compile Include="Assets\Scripts\CollisionObserver.cs" />
      <Compile Include="Assets\Scripts\FrogJump.cs" />
      <Compile Include="Assets\Scripts\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />

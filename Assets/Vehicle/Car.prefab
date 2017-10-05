@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 4824942815159564}
   - component: {fileID: 114392036728313250}
   - component: {fileID: 54977070491558956}
+  - component: {fileID: 114352304829753136}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -520,6 +521,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114352304829753136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103151557719574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf8010effee146eda73d916219754c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114392036728313250
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 33395492529809576}
   - component: {fileID: 65322943323636530}
   - component: {fileID: 23030935352373484}
-  - component: {fileID: 114425997783590928}
+  - component: {fileID: 114400590498453734}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -229,6 +229,23 @@ GameObject:
   - component: {fileID: 23805955422726862}
   m_Layer: 0
   m_Name: PineTree_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1426106582138984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4844950299847284}
+  - component: {fileID: 65020566026496736}
+  - component: {fileID: 114731839486879458}
+  m_Layer: 0
+  m_Name: Destructor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -724,8 +741,22 @@ Transform:
   - {fileID: 4704451228628110}
   - {fileID: 4585232767489450}
   - {fileID: 4528825224250348}
+  - {fileID: 4844950299847284}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4844950299847284
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426106582138984}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -70, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4745033546006752}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4860396400015004
 Transform:
@@ -1602,6 +1633,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1850087486112672}
   m_Mesh: {fileID: 4300002, guid: e6cf2df02b2dc457f9ad3e250603295b, type: 3}
+--- !u!65 &65020566026496736
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426106582138984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 20, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65056276325051810
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1698,7 +1741,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.190729, y: 12.789173, z: 8.5371}
   m_Center: {x: -0.010544777, y: 9.638422, z: -0.0006418228}
---- !u!114 &114425997783590928
+--- !u!114 &114400590498453734
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1724,6 +1767,17 @@ MonoBehaviour:
   meanTime: 1
   minimumInterval: 2
   nextInterval: 0
+--- !u!114 &114731839486879458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426106582138984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586d8a048b8584e998843eb0a1dc82d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136056335476622562
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -11,6 +11,6 @@ public class VechicleMovement : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		GetComponent<Rigidbody> ().MovePosition (transform.position - Vector3.right * velocity * Time.deltaTime);
+		GetComponent<Rigidbody> ().MovePosition (transform.position - transform.right * velocity * Time.deltaTime);
 	}
 }

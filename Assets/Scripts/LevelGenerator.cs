@@ -15,7 +15,7 @@ public class LevelGenerator : MonoBehaviour {
 
 	void CreateLand(int landIndex,float z){
 		GameObject land = Instantiate (prefabs [landIndex]);
-		land.transform.parent = transform;
+		land.transform.SetParent (transform, false);
 		land.transform.Translate (new Vector3 (0, 0, z));
 	}
 	

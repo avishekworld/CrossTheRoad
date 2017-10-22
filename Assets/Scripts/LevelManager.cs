@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
+	void Start(){
+		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
+	}
+
 	public void LoadNextScene(){
 		int currentScene = SceneManager.GetActiveScene ().buildIndex;
 		SceneManager.LoadScene (currentScene + 1);

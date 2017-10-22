@@ -4200,10 +4200,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 210848bb6e0f94c3db90fb6cf5fc6acd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 1096181507634750, guid: 4219f3415d9084eff95d599936b31940, type: 2}
-  - {fileID: 1856592165544544, guid: 9ef9e7b78d29b45ef94e8e8c63a221bc, type: 2}
+  safeLanes:
   - {fileID: 1077568535292126, guid: 7aec91500285e4d3aa861217e07132d1, type: 2}
+  dangerLanes:
+  - {fileID: 1856592165544544, guid: 9ef9e7b78d29b45ef94e8e8c63a221bc, type: 2}
+  - {fileID: 1096181507634750, guid: 4219f3415d9084eff95d599936b31940, type: 2}
 --- !u!4 &2098349790
 Transform:
   m_ObjectHideFlags: 0
